@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&family=Sanchez&display=swap');
+
+* {
+  font-family: 'Overpass', sans-serif;
+}
+
+body {
+  background-color: hsl(210, 25%, 2%);
+}
+
+#rating-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  width: 28%;
+  height: 55vh;
+  background-color: hsl(213, 19%, 18%);
+  /* border: 1px solid rgb(183, 3, 3); */
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.head {
+  color: hsl(0, 0%, 100%);
+}
+
+.para {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+}
+
+.ratings {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: none;
+  text-align: center;
+  display: flex;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.btn:hover {
+   
+  background-color: hsl(217, 12%, 63%);
+}
+
+.fa-star {
+  color: gold;
+}
+
+#star-div {
+  border-radius: 50%;
+  background-color: hsl(216, 12%, 8%);
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#submit {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 25px;
+}
+
+.thank-you {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  width: 28%;
+  height: 55vh;
+  background-color: hsl(213, 19%, 18%);
+  /* border: 1px solid rgb(183, 3, 3); */
+  padding: 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hidden {
+    display: none;
+  }
+
+.rate-text {
+  background-color: hsl(25, 97%, 53%);
+  width: 16rem;
+  height: 3rem;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.rate {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(25, 97%, 53%);
+}
+
+.thanks {
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.lower-text {
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(217, 12%, 63%);
+}
+
+
+.active{
+    background-color:hsl(25, 97%, 53%);
+    }
+.active:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+    
+
+
